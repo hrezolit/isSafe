@@ -8,21 +8,65 @@
 
 /* Begin PBXBuildFile section */
 		D5BA823C2A8DC63600289EE5 /* isSafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA823B2A8DC63600289EE5 /* isSafeApp.swift */; };
-		D5BA823E2A8DC63600289EE5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA823D2A8DC63600289EE5 /* ContentView.swift */; };
+		D5BA823E2A8DC63600289EE5 /* Quakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA823D2A8DC63600289EE5 /* Quakes.swift */; };
 		D5BA82402A8DC63700289EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BA823F2A8DC63700289EE5 /* Assets.xcassets */; };
 		D5BA82432A8DC63800289EE5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BA82422A8DC63800289EE5 /* Preview Assets.xcassets */; };
+		D5BA824A2A8DC7D700289EE5 /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA82492A8DC7D700289EE5 /* Quake.swift */; };
+		D5BA824C2A8DC93000289EE5 /* Quake+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA824B2A8DC93000289EE5 /* Quake+Color.swift */; };
+		D5BA82522A8DCAAF00289EE5 /* QuakeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA82512A8DCAAF00289EE5 /* QuakeRow.swift */; };
+		D5BA82542A8DCAC400289EE5 /* QuakeMagnitude.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA82532A8DCAC400289EE5 /* QuakeMagnitude.swift */; };
+		D5BA82572A8DCB0800289EE5 /* Quakes+Toolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA82562A8DCB0800289EE5 /* Quakes+Toolbar.swift */; };
+		D5BA82592A8DCB1D00289EE5 /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA82582A8DCB1D00289EE5 /* SelectButton.swift */; };
+		D5BA825B2A8DCB3500289EE5 /* EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA825A2A8DCB3500289EE5 /* EditButton.swift */; };
+		D5BA825D2A8DCB4D00289EE5 /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA825C2A8DCB4D00289EE5 /* RefreshButton.swift */; };
+		D5BA825F2A8DCB7F00289EE5 /* ToolbarStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA825E2A8DCB7F00289EE5 /* ToolbarStatus.swift */; };
+		D5BA82612A8DCB9A00289EE5 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA82602A8DCB9A00289EE5 /* DeleteButton.swift */; };
+		D5BA82632A8DDF2400289EE5 /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA82622A8DDF2400289EE5 /* QuakeError.swift */; };
+		D5BA826B2A9105B400289EE5 /* isSafeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA826A2A9105B400289EE5 /* isSafeTests.swift */; };
+		D5BA82722A9105E700289EE5 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA82712A9105E700289EE5 /* TestData.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5BA826C2A9105B400289EE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5BA82302A8DC63600289EE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5BA82372A8DC63600289EE5;
+			remoteInfo = isSafe;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D5BA82382A8DC63600289EE5 /* isSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = isSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BA823B2A8DC63600289EE5 /* isSafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSafeApp.swift; sourceTree = "<group>"; };
-		D5BA823D2A8DC63600289EE5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D5BA823D2A8DC63600289EE5 /* Quakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quakes.swift; sourceTree = "<group>"; };
 		D5BA823F2A8DC63700289EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5BA82422A8DC63800289EE5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D5BA82492A8DC7D700289EE5 /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
+		D5BA824B2A8DC93000289EE5 /* Quake+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quake+Color.swift"; sourceTree = "<group>"; };
+		D5BA82512A8DCAAF00289EE5 /* QuakeRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeRow.swift; sourceTree = "<group>"; };
+		D5BA82532A8DCAC400289EE5 /* QuakeMagnitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeMagnitude.swift; sourceTree = "<group>"; };
+		D5BA82562A8DCB0800289EE5 /* Quakes+Toolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Quakes+Toolbar.swift"; sourceTree = "<group>"; };
+		D5BA82582A8DCB1D00289EE5 /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
+		D5BA825A2A8DCB3500289EE5 /* EditButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButton.swift; sourceTree = "<group>"; };
+		D5BA825C2A8DCB4D00289EE5 /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		D5BA825E2A8DCB7F00289EE5 /* ToolbarStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStatus.swift; sourceTree = "<group>"; };
+		D5BA82602A8DCB9A00289EE5 /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
+		D5BA82622A8DDF2400289EE5 /* QuakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
+		D5BA82682A9105B400289EE5 /* isSafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = isSafeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5BA826A2A9105B400289EE5 /* isSafeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSafeTests.swift; sourceTree = "<group>"; };
+		D5BA82712A9105E700289EE5 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D5BA82352A8DC63600289EE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5BA82652A9105B400289EE5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				D5BA823A2A8DC63600289EE5 /* isSafe */,
+				D5BA82692A9105B400289EE5 /* isSafeTests */,
 				D5BA82392A8DC63600289EE5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				D5BA82382A8DC63600289EE5 /* isSafe.app */,
+				D5BA82682A9105B400289EE5 /* isSafeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,7 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				D5BA823B2A8DC63600289EE5 /* isSafeApp.swift */,
-				D5BA823D2A8DC63600289EE5 /* ContentView.swift */,
+				D5BA824D2A8DC95C00289EE5 /* Models */,
+				D5BA82502A8DC9A500289EE5 /* Views */,
 				D5BA823F2A8DC63700289EE5 /* Assets.xcassets */,
 				D5BA82412A8DC63800289EE5 /* Preview Content */,
 			);
@@ -65,6 +112,49 @@
 				D5BA82422A8DC63800289EE5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5BA824D2A8DC95C00289EE5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5BA82492A8DC7D700289EE5 /* Quake.swift */,
+				D5BA82622A8DDF2400289EE5 /* QuakeError.swift */,
+				D5BA824B2A8DC93000289EE5 /* Quake+Color.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5BA82502A8DC9A500289EE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5BA823D2A8DC63600289EE5 /* Quakes.swift */,
+				D5BA82512A8DCAAF00289EE5 /* QuakeRow.swift */,
+				D5BA82532A8DCAC400289EE5 /* QuakeMagnitude.swift */,
+				D5BA82552A8DCAE900289EE5 /* ToolbarContent */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5BA82552A8DCAE900289EE5 /* ToolbarContent */ = {
+			isa = PBXGroup;
+			children = (
+				D5BA82562A8DCB0800289EE5 /* Quakes+Toolbar.swift */,
+				D5BA82582A8DCB1D00289EE5 /* SelectButton.swift */,
+				D5BA825A2A8DCB3500289EE5 /* EditButton.swift */,
+				D5BA825C2A8DCB4D00289EE5 /* RefreshButton.swift */,
+				D5BA825E2A8DCB7F00289EE5 /* ToolbarStatus.swift */,
+				D5BA82602A8DCB9A00289EE5 /* DeleteButton.swift */,
+			);
+			path = ToolbarContent;
+			sourceTree = "<group>";
+		};
+		D5BA82692A9105B400289EE5 /* isSafeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5BA826A2A9105B400289EE5 /* isSafeTests.swift */,
+				D5BA82712A9105E700289EE5 /* TestData.swift */,
+			);
+			path = isSafeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +177,24 @@
 			productReference = D5BA82382A8DC63600289EE5 /* isSafe.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D5BA82672A9105B400289EE5 /* isSafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5BA826E2A9105B400289EE5 /* Build configuration list for PBXNativeTarget "isSafeTests" */;
+			buildPhases = (
+				D5BA82642A9105B400289EE5 /* Sources */,
+				D5BA82652A9105B400289EE5 /* Frameworks */,
+				D5BA82662A9105B400289EE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5BA826D2A9105B400289EE5 /* PBXTargetDependency */,
+			);
+			name = isSafeTests;
+			productName = isSafeTests;
+			productReference = D5BA82682A9105B400289EE5 /* isSafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +207,10 @@
 				TargetAttributes = {
 					D5BA82372A8DC63600289EE5 = {
 						CreatedOnToolsVersion = 14.3.1;
+					};
+					D5BA82672A9105B400289EE5 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D5BA82372A8DC63600289EE5;
 					};
 				};
 			};
@@ -116,6 +228,7 @@
 			projectRoot = "";
 			targets = (
 				D5BA82372A8DC63600289EE5 /* isSafe */,
+				D5BA82672A9105B400289EE5 /* isSafeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +243,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5BA82662A9105B400289EE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +257,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5BA823E2A8DC63600289EE5 /* ContentView.swift in Sources */,
+				D5BA82542A8DCAC400289EE5 /* QuakeMagnitude.swift in Sources */,
+				D5BA825B2A8DCB3500289EE5 /* EditButton.swift in Sources */,
+				D5BA82592A8DCB1D00289EE5 /* SelectButton.swift in Sources */,
+				D5BA823E2A8DC63600289EE5 /* Quakes.swift in Sources */,
+				D5BA825D2A8DCB4D00289EE5 /* RefreshButton.swift in Sources */,
+				D5BA824C2A8DC93000289EE5 /* Quake+Color.swift in Sources */,
+				D5BA825F2A8DCB7F00289EE5 /* ToolbarStatus.swift in Sources */,
+				D5BA82522A8DCAAF00289EE5 /* QuakeRow.swift in Sources */,
+				D5BA82612A8DCB9A00289EE5 /* DeleteButton.swift in Sources */,
+				D5BA82632A8DDF2400289EE5 /* QuakeError.swift in Sources */,
+				D5BA82572A8DCB0800289EE5 /* Quakes+Toolbar.swift in Sources */,
+				D5BA824A2A8DC7D700289EE5 /* Quake.swift in Sources */,
 				D5BA823C2A8DC63600289EE5 /* isSafeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5BA82642A9105B400289EE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BA826B2A9105B400289EE5 /* isSafeTests.swift in Sources */,
+				D5BA82722A9105E700289EE5 /* TestData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5BA826D2A9105B400289EE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5BA82372A8DC63600289EE5 /* isSafe */;
+			targetProxy = D5BA826C2A9105B400289EE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D5BA82442A8DC63800289EE5 /* Debug */ = {
@@ -317,6 +465,42 @@
 			};
 			name = Release;
 		};
+		D5BA826F2A9105B400289EE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT76HWWZKL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = G.isSafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/isSafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/isSafe";
+			};
+			name = Debug;
+		};
+		D5BA82702A9105B400289EE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT76HWWZKL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = G.isSafeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/isSafe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/isSafe";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -334,6 +518,15 @@
 			buildConfigurations = (
 				D5BA82472A8DC63800289EE5 /* Debug */,
 				D5BA82482A8DC63800289EE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5BA826E2A9105B400289EE5 /* Build configuration list for PBXNativeTarget "isSafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5BA826F2A9105B400289EE5 /* Debug */,
+				D5BA82702A9105B400289EE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
