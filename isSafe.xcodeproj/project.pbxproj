@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5A591C02A945EA10064F0DB /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A591BF2A945EA10064F0DB /* GeoJSON.swift */; };
 		D5BA823C2A8DC63600289EE5 /* isSafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA823B2A8DC63600289EE5 /* isSafeApp.swift */; };
 		D5BA823E2A8DC63600289EE5 /* Quakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA823D2A8DC63600289EE5 /* Quakes.swift */; };
 		D5BA82402A8DC63700289EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BA823F2A8DC63700289EE5 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5A591BF2A945EA10064F0DB /* GeoJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSON.swift; sourceTree = "<group>"; };
 		D5BA82382A8DC63600289EE5 /* isSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = isSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BA823B2A8DC63600289EE5 /* isSafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSafeApp.swift; sourceTree = "<group>"; };
 		D5BA823D2A8DC63600289EE5 /* Quakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quakes.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				D5BA82492A8DC7D700289EE5 /* Quake.swift */,
 				D5BA82622A8DDF2400289EE5 /* QuakeError.swift */,
 				D5BA824B2A8DC93000289EE5 /* Quake+Color.swift */,
+				D5A591BF2A945EA10064F0DB /* GeoJSON.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				D5BA82542A8DCAC400289EE5 /* QuakeMagnitude.swift in Sources */,
 				D5BA825B2A8DCB3500289EE5 /* EditButton.swift in Sources */,
 				D5BA82592A8DCB1D00289EE5 /* SelectButton.swift in Sources */,
+				D5A591C02A945EA10064F0DB /* GeoJSON.swift in Sources */,
 				D5BA823E2A8DC63600289EE5 /* Quakes.swift in Sources */,
 				D5BA825D2A8DCB4D00289EE5 /* RefreshButton.swift in Sources */,
 				D5BA824C2A8DC93000289EE5 /* Quake+Color.swift in Sources */,
