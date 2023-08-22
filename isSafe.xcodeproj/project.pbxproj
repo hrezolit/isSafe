@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D5A591C02A945EA10064F0DB /* GeoJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A591BF2A945EA10064F0DB /* GeoJSON.swift */; };
+		D5A591C22A9464220064F0DB /* QuakeLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A591C12A9464220064F0DB /* QuakeLocation.swift */; };
 		D5BA823C2A8DC63600289EE5 /* isSafeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA823B2A8DC63600289EE5 /* isSafeApp.swift */; };
 		D5BA823E2A8DC63600289EE5 /* Quakes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BA823D2A8DC63600289EE5 /* Quakes.swift */; };
 		D5BA82402A8DC63700289EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BA823F2A8DC63700289EE5 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		D5A591BF2A945EA10064F0DB /* GeoJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSON.swift; sourceTree = "<group>"; };
+		D5A591C12A9464220064F0DB /* QuakeLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeLocation.swift; sourceTree = "<group>"; };
 		D5BA82382A8DC63600289EE5 /* isSafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = isSafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BA823B2A8DC63600289EE5 /* isSafeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSafeApp.swift; sourceTree = "<group>"; };
 		D5BA823D2A8DC63600289EE5 /* Quakes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quakes.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				D5BA82622A8DDF2400289EE5 /* QuakeError.swift */,
 				D5BA824B2A8DC93000289EE5 /* Quake+Color.swift */,
 				D5A591BF2A945EA10064F0DB /* GeoJSON.swift */,
+				D5A591C12A9464220064F0DB /* QuakeLocation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				D5BA82522A8DCAAF00289EE5 /* QuakeRow.swift in Sources */,
 				D5BA82612A8DCB9A00289EE5 /* DeleteButton.swift in Sources */,
 				D5BA82632A8DDF2400289EE5 /* QuakeError.swift in Sources */,
+				D5A591C22A9464220064F0DB /* QuakeLocation.swift in Sources */,
 				D5BA82572A8DCB0800289EE5 /* Quakes+Toolbar.swift in Sources */,
 				D5BA824A2A8DC7D700289EE5 /* Quake.swift in Sources */,
 				D5BA823C2A8DC63600289EE5 /* isSafeApp.swift in Sources */,
