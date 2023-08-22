@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct QuakeLocation {
+struct QuakeLocation: Decodable {
     
     var latitude: Double {
         properties.products.origin.first!.properties.latitude
@@ -55,7 +55,5 @@ extension QuakeLocation.OriginProperties: Decodable {
         
         self.latitude = latitude
         self.longitude = longitude
-            
-        
     }
 }
